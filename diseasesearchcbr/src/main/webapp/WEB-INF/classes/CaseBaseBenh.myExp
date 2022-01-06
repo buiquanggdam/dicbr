@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Project name="CaseBaseBenh" author="" >
+<exp obj="Benh" type="Concept" >
+  <desc>
+      </desc>
+</exp>
+<exp obj="Age" c="Benh" type="AttributeDesc" >
+  <desc>
+      </desc>
+</exp>
+<exp obj="Tongue" c="Benh" type="AttributeDesc" >
+  <desc>
+      </desc>
+</exp>
+<exp obj="Face" c="Benh" type="AttributeDesc" >
+  <desc>
+      </desc>
+</exp>
+<exp obj="Eyes" c="Benh" type="AttributeDesc" >
+  <desc>
+      </desc>
+</exp>
+<exp obj="Jaw" c="Benh" type="AttributeDesc" >
+  <desc>
+      </desc>
+</exp>
+<exp obj="Speak" c="Benh" type="AttributeDesc" >
+  <desc>
+      </desc>
+</exp>
+<exp obj="Disease" c="Benh" type="AttributeDesc" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="Mouth" c="Benh" type="AttributeDesc" >
+  <desc>
+      </desc>
+</exp>
+<exp obj="Benh #0" c="Benh" type="Instance" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="Benh #1" c="Benh" type="Instance" >
+  <desc>
+  </desc>
+</exp>
+</Project>

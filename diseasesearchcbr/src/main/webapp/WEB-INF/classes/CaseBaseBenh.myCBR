@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Project name="CaseBaseBenh" author="" >
+<svs>
+  <sv name="_unknown_"/>
+  <sv name="_undefined_"/>
+  <sv name="_others_"/>
+<fct name="default function" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
+<qsym name="_unknown_">
+</qsym>
+<qsym name="_undefined_">
+</qsym>
+<qsym name="_others_">
+</qsym>
+</fct>
+</svs>
+<model>
+  <concept name="Benh">
+    <desc name="Jaw" type="Symbol" mult="false" >
+      <symbol value="JAW2" />
+      <symbol value="JAW3" />
+      <symbol value="JAW1" />
+      <symbol value="JAW4" />
+      <symbol value="JAW5" />
+<fct name="default function" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
+<qsym name="JAW2">
+</qsym>
+<qsym name="JAW3">
+</qsym>
+<qsym name="JAW1">
+<csym name="JAW4" sim="0.5"/>
+</qsym>
+<qsym name="JAW4">
+<csym name="JAW1" sim="0.5"/>
+</qsym>
+<qsym name="JAW5">
+</qsym>
+</fct>
+<fct name="jaw_sim" type="OrderedSymbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true" cyclic="false" >
+<qsym name="JAW2">
+<csym name="JAW3" sim="0.75"/>
+<csym name="JAW1" sim="0.5"/>
+<csym name="JAW4" sim="0.25"/>
+</qsym>
+<qsym name="JAW3">
+<csym name="JAW2" sim="0.75"/>
+<csym name="JAW1" sim="0.75"/>
+<csym name="JAW4" sim="0.5"/>
+<csym name="JAW5" sim="0.25"/>
+</qsym>
+<qsym name="JAW1">
+<csym name="JAW2" sim="0.5"/>
+<csym name="JAW3" sim="0.75"/>
+<csym name="JAW4" sim="0.75"/>
+<csym name="JAW5" sim="0.5"/>
+</qsym>
+<qsym name="JAW4">
+<csym name="JAW2" sim="0.25"/>
+<csym name="JAW3" sim="0.5"/>
+<csym name="JAW1" sim="0.75"/>
+<csym name="JAW5" sim="0.75"/>
+</qsym>
+<qsym name="JAW5">
+<csym name="JAW3" sim="0.25"/>
+<csym name="JAW1" sim="0.5"/>
+<csym name="JAW4" sim="0.75"/>
+</qsym>
+      <intfct name="jaw_simInternal" type="Integer" ltype="POLYNOMIAL_WITH" lparam="1.0" rtype="POLYNOMIAL_WITH" rparam="1.0" mode="DIFFERENCE" symm="true"  />
+        <order name="JAW4" index="4" />
+        <order name="JAW5" index="5" />
+        <order name="JAW3" index="2" />
+        <order name="JAW2" index="1" />
+        <order name="JAW1" index="3" />
+</fct>
+    </desc>
+    <desc name="Tongue" type="Symbol" mult="false" >
+      <symbol value="TON2" />
+      <symbol value="TON1" />
+      <symbol value="TON5" />
+      <symbol value="TON4" />
+      <symbol value="TON3" />
+<fct name="tongue_sim" type="OrderedSymbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true" cyclic="false" >
+<qsym name="TON2">
+<csym name="TON1" sim="0.75"/>
+<csym name="TON5" sim="0.5"/>
+<csym name="TON4" sim="0.25"/>
+</qsym>
+<qsym name="TON1">
+<csym name="TON2" sim="0.75"/>
+<csym name="TON5" sim="0.75"/>
+<csym name="TON4" sim="0.5"/>
+<csym name="TON3" sim="0.25"/>
+</qsym>
+<qsym name="TON5">
+<csym name="TON2" sim="0.5"/>
+<csym name="TON1" sim="0.75"/>
+<csym name="TON4" sim="0.75"/>
+<csym name="TON3" sim="0.5"/>
+</qsym>
+<qsym name="TON4">
+<csym name="TON2" sim="0.25"/>
+<csym name="TON1" sim="0.5"/>
+<csym name="TON5" sim="0.75"/>
+<csym name="TON3" sim="0.75"/>
+</qsym>
+<qsym name="TON3">
+<csym name="TON1" sim="0.25"/>
+<csym name="TON5" sim="0.5"/>
+<csym name="TON4" sim="0.75"/>
+</qsym>
+      <intfct name="tongue_simInternal" type="Integer" ltype="POLYNOMIAL_WITH" lparam="1.0" rtype="POLYNOMIAL_WITH" rparam="1.0" mode="DIFFERENCE" symm="false"  />
+        <order name="TON2" index="1" />
+        <order name="TON3" index="5" />
+        <order name="TON4" index="4" />
+        <order name="TON1" index="2" />
+        <order name="TON5" index="3" />
+</fct>
+<fct name="default function" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
+<qsym name="TON2">
+</qsym>
+<qsym name="TON1">
+<csym name="TON4" sim="0.5"/>
+</qsym>
+<qsym name="TON5">
+</qsym>
+<qsym name="TON4">
+<csym name="TON1" sim="0.5"/>
+</qsym>
+<qsym name="TON3">
+</qsym>
+</fct>
+    </desc>
+    <desc name="Eyes" type="Symbol" mult="false" >
+      <symbol value="EYE1" />
+      <symbol value="EYE2" />
+      <symbol value="EYE3" />
+      <symbol value="EYE4" />
+      <symbol value="EYE5" />
+      <symbol value="EYE6" />
+      <symbol value="EYE7" />
+<fct name="default function" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
+<qsym name="EYE1">
+<csym name="EYE2" sim="0.5"/>
+<csym name="EYE7" sim="0.5"/>
+</qsym>
+<qsym name="EYE2">
+<csym name="EYE1" sim="0.5"/>
+</qsym>
+<qsym name="EYE3">
+<csym name="EYE7" sim="0.5"/>
+</qsym>
+<qsym name="EYE4">
+</qsym>
+<qsym name="EYE5">
+<csym name="EYE7" sim="0.5"/>
+</qsym>
+<qsym name="EYE6">
+</qsym>
+<qsym name="EYE7">
+<csym name="EYE1" sim="0.5"/>
+<csym name="EYE3" sim="0.5"/>
+<csym name="EYE5" sim="0.5"/>
+</qsym>
+</fct>
+<fct name="eyes_sim" type="OrderedSymbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true" cyclic="false" >
+<qsym name="EYE1">
+<csym name="EYE2" sim="0.83"/>
+<csym name="EYE3" sim="0.67"/>
+<csym name="EYE4" sim="0.5"/>
+<csym name="EYE5" sim="0.33"/>
+<csym name="EYE6" sim="0.17"/>
+</qsym>
+<qsym name="EYE2">
+<csym name="EYE1" sim="0.83"/>
+<csym name="EYE3" sim="0.83"/>
+<csym name="EYE4" sim="0.67"/>
+<csym name="EYE5" sim="0.5"/>
+<csym name="EYE6" sim="0.33"/>
+<csym name="EYE7" sim="0.17"/>
+</qsym>
+<qsym name="EYE3">
+<csym name="EYE1" sim="0.67"/>
+<csym name="EYE2" sim="0.83"/>
+<csym name="EYE4" sim="0.83"/>
+<csym name="EYE5" sim="0.67"/>
+<csym name="EYE6" sim="0.5"/>
+<csym name="EYE7" sim="0.33"/>
+</qsym>
+<qsym name="EYE4">
+<csym name="EYE1" sim="0.5"/>
+<csym name="EYE2" sim="0.67"/>
+<csym name="EYE3" sim="0.83"/>
+<csym name="EYE5" sim="0.83"/>
+<csym name="EYE6" sim="0.67"/>
+<csym name="EYE7" sim="0.5"/>
+</qsym>
+<qsym name="EYE5">
+<csym name="EYE1" sim="0.33"/>
+<csym name="EYE2" sim="0.5"/>
+<csym name="EYE3" sim="0.67"/>
+<csym name="EYE4" sim="0.83"/>
+<csym name="EYE6" sim="0.83"/>
+<csym name="EYE7" sim="0.67"/>
+</qsym>
+<qsym name="EYE6">
+<csym name="EYE1" sim="0.17"/>
+<csym name="EYE2" sim="0.33"/>
+<csym name="EYE3" sim="0.5"/>
+<csym name="EYE4" sim="0.67"/>
+<csym name="EYE5" sim="0.83"/>
+<csym name="EYE7" sim="0.83"/>
+</qsym>
+<qsym name="EYE7">
+<csym name="EYE2" sim="0.17"/>
+<csym name="EYE3" sim="0.33"/>
+<csym name="EYE4" sim="0.5"/>
+<csym name="EYE5" sim="0.67"/>
+<csym name="EYE6" sim="0.83"/>
+</qsym>
+      <intfct name="eyes_simInternal" type="Integer" ltype="POLYNOMIAL_WITH" lparam="1.0" rtype="POLYNOMIAL_WITH" rparam="1.0" mode="DIFFERENCE" symm="false"  />
+        <order name="EYE7" index="7" />
+        <order name="EYE1" index="1" />
+        <order name="EYE3" index="3" />
+        <order name="EYE6" index="6" />
+        <order name="EYE4" index="4" />
+        <order name="EYE2" index="2" />
+        <order name="EYE5" index="5" />
+</fct>
+    </desc>
+    <desc name="Speak" type="Symbol" mult="false" >
+      <symbol value="SPE2" />
+      <symbol value="SPE3" />
+      <symbol value="SPE1" />
+<fct name="speak_sim" type="OrderedSymbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true" cyclic="false" >
+<qsym name="SPE2">
+<csym name="SPE3" sim="0.5"/>
+</qsym>
+<qsym name="SPE3">
+<csym name="SPE2" sim="0.5"/>
+<csym name="SPE1" sim="0.5"/>
+</qsym>
+<qsym name="SPE1">
+<csym name="SPE3" sim="0.5"/>
+</qsym>
+      <intfct name="speak_simInternal" type="Integer" ltype="POLYNOMIAL_WITH" lparam="1.0" rtype="POLYNOMIAL_WITH" rparam="1.0" mode="DIFFERENCE" symm="false"  />
+        <order name="SPE1" index="3" />
+        <order name="SPE2" index="1" />
+        <order name="SPE3" index="2" />
+</fct>
+<fct name="default function" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
+<qsym name="SPE2">
+<csym name="SPE3" sim="0.25"/>
+<csym name="SPE1" sim="0.25"/>
+</qsym>
+<qsym name="SPE3">
+<csym name="SPE2" sim="0.25"/>
+<csym name="SPE1" sim="0.25"/>
+</qsym>
+<qsym name="SPE1">
+<csym name="SPE2" sim="0.25"/>
+<csym name="SPE3" sim="0.25"/>
+</qsym>
+</fct>
+    </desc>
+    <desc name="Disease" type="Symbol" mult="false" >
+      <symbol value="Tourette Syndrome" />
+      <symbol value="&#272;au d&#226;y th&#7847;n kinh sinh ba" />
+      <symbol value="Bell&#8217;s Palsy" />
+      <symbol value="Tardive dyskinesia" />
+      <symbol value="Hemifacial Spasm" />
+      <symbol value="Meige Syndrome" />
+      <symbol value="&#272;&#7897;t qu&#7925;" />
+      <symbol value="Blepharospasm" />
+      <symbol value="TIC" />
+<fct name="default function" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
+<qsym name="Tourette Syndrome">
+</qsym>
+<qsym name="?au dây th?n kinh sinh ba">
+</qsym>
+<qsym name="Bell?s Palsy">
+</qsym>
+<qsym name="Tardive dyskinesia">
+</qsym>
+<qsym name="Hemifacial Spasm">
+</qsym>
+<qsym name="Meige Syndrome">
+</qsym>
+<qsym name="??t qu?">
+</qsym>
+<qsym name="Blepharospasm">
+</qsym>
+<qsym name="TIC">
+</qsym>
+</fct>
+    </desc>
+    <desc name="Mouth" type="Symbol" mult="false" >
+      <symbol value="MOU7" />
+      <symbol value="MOU8" />
+      <symbol value="MOU3" />
+      <symbol value="MOU4" />
+      <symbol value="MOU5" />
+      <symbol value="MOU6" />
+      <symbol value="MOU1" />
+      <symbol value="MOU2" />
+<fct name="mouth_sim" type="OrderedSymbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true" cyclic="false" >
+<qsym name="MOU7">
+<csym name="MOU8" sim="0.86"/>
+<csym name="MOU3" sim="0.71"/>
+<csym name="MOU4" sim="0.57"/>
+<csym name="MOU5" sim="0.43"/>
+<csym name="MOU6" sim="0.29"/>
+<csym name="MOU1" sim="0.14"/>
+</qsym>
+<qsym name="MOU8">
+<csym name="MOU7" sim="0.86"/>
+<csym name="MOU3" sim="0.86"/>
+<csym name="MOU4" sim="0.71"/>
+<csym name="MOU5" sim="0.57"/>
+<csym name="MOU6" sim="0.43"/>
+<csym name="MOU1" sim="0.29"/>
+<csym name="MOU2" sim="0.14"/>
+</qsym>
+<qsym name="MOU3">
+<csym name="MOU7" sim="0.71"/>
+<csym name="MOU8" sim="0.86"/>
+<csym name="MOU4" sim="0.86"/>
+<csym name="MOU5" sim="0.71"/>
+<csym name="MOU6" sim="0.57"/>
+<csym name="MOU1" sim="0.43"/>
+<csym name="MOU2" sim="0.29"/>
+</qsym>
+<qsym name="MOU4">
+<csym name="MOU7" sim="0.57"/>
+<csym name="MOU8" sim="0.71"/>
+<csym name="MOU3" sim="0.86"/>
+<csym name="MOU5" sim="0.86"/>
+<csym name="MOU6" sim="0.71"/>
+<csym name="MOU1" sim="0.57"/>
+<csym name="MOU2" sim="0.43"/>
+</qsym>
+<qsym name="MOU5">
+<csym name="MOU7" sim="0.43"/>
+<csym name="MOU8" sim="0.57"/>
+<csym name="MOU3" sim="0.71"/>
+<csym name="MOU4" sim="0.86"/>
+<csym name="MOU6" sim="0.86"/>
+<csym name="MOU1" sim="0.71"/>
+<csym name="MOU2" sim="0.57"/>
+</qsym>
+<qsym name="MOU6">
+<csym name="MOU7" sim="0.29"/>
+<csym name="MOU8" sim="0.43"/>
+<csym name="MOU3" sim="0.57"/>
+<csym name="MOU4" sim="0.71"/>
+<csym name="MOU5" sim="0.86"/>
+<csym name="MOU1" sim="0.86"/>
+<csym name="MOU2" sim="0.71"/>
+</qsym>
+<qsym name="MOU1">
+<csym name="MOU7" sim="0.14"/>
+<csym name="MOU8" sim="0.29"/>
+<csym name="MOU3" sim="0.43"/>
+<csym name="MOU4" sim="0.57"/>
+<csym name="MOU5" sim="0.71"/>
+<csym name="MOU6" sim="0.86"/>
+<csym name="MOU2" sim="0.86"/>
+</qsym>
+<qsym name="MOU2">
+<csym name="MOU8" sim="0.14"/>
+<csym name="MOU3" sim="0.29"/>
+<csym name="MOU4" sim="0.43"/>
+<csym name="MOU5" sim="0.57"/>
+<csym name="MOU6" sim="0.71"/>
+<csym name="MOU1" sim="0.86"/>
+</qsym>
+      <intfct name="mouth_simInternal" type="Integer" ltype="POLYNOMIAL_WITH" lparam="1.0" rtype="POLYNOMIAL_WITH" rparam="1.0" mode="DIFFERENCE" symm="false"  />
+        <order name="MOU4" index="4" />
+        <order name="MOU1" index="7" />
+        <order name="MOU6" index="6" />
+        <order name="MOU2" index="8" />
+        <order name="MOU8" index="2" />
+        <order name="MOU7" index="1" />
+        <order name="MOU5" index="5" />
+        <order name="MOU3" index="3" />
+</fct>
+<fct name="default function" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
+<qsym name="MOU7">
+</qsym>
+<qsym name="MOU8">
+</qsym>
+<qsym name="MOU3">
+<csym name="MOU6" sim="0.5"/>
+<csym name="MOU1" sim="0.5"/>
+</qsym>
+<qsym name="MOU4">
+<csym name="MOU2" sim="0.5"/>
+</qsym>
+<qsym name="MOU5">
+</qsym>
+<qsym name="MOU6">
+<csym name="MOU3" sim="0.5"/>
+</qsym>
+<qsym name="MOU1">
+<csym name="MOU3" sim="0.5"/>
+</qsym>
+<qsym name="MOU2">
+<csym name="MOU4" sim="0.5"/>
+</qsym>
+</fct>
+    </desc>
+    <desc name="Face" type="Symbol" mult="false" >
+      <symbol value="FAC1" />
+      <symbol value="FAC2" />
+      <symbol value="FAC3" />
+      <symbol value="FAC4" />
+      <symbol value="FAC5" />
+      <symbol value="FAC6" />
+      <symbol value="FAC7" />
+<fct name="face_sim" type="OrderedSymbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true" cyclic="false" >
+<qsym name="FAC1">
+<csym name="FAC2" sim="0.83"/>
+<csym name="FAC3" sim="0.67"/>
+<csym name="FAC4" sim="0.5"/>
+<csym name="FAC5" sim="0.33"/>
+<csym name="FAC6" sim="0.17"/>
+</qsym>
+<qsym name="FAC2">
+<csym name="FAC1" sim="0.83"/>
+<csym name="FAC3" sim="0.83"/>
+<csym name="FAC4" sim="0.67"/>
+<csym name="FAC5" sim="0.5"/>
+<csym name="FAC6" sim="0.33"/>
+<csym name="FAC7" sim="0.17"/>
+</qsym>
+<qsym name="FAC3">
+<csym name="FAC1" sim="0.67"/>
+<csym name="FAC2" sim="0.83"/>
+<csym name="FAC4" sim="0.83"/>
+<csym name="FAC5" sim="0.67"/>
+<csym name="FAC6" sim="0.5"/>
+<csym name="FAC7" sim="0.33"/>
+</qsym>
+<qsym name="FAC4">
+<csym name="FAC1" sim="0.5"/>
+<csym name="FAC2" sim="0.67"/>
+<csym name="FAC3" sim="0.83"/>
+<csym name="FAC5" sim="0.83"/>
+<csym name="FAC6" sim="0.67"/>
+<csym name="FAC7" sim="0.5"/>
+</qsym>
+<qsym name="FAC5">
+<csym name="FAC1" sim="0.33"/>
+<csym name="FAC2" sim="0.5"/>
+<csym name="FAC3" sim="0.67"/>
+<csym name="FAC4" sim="0.83"/>
+<csym name="FAC6" sim="0.83"/>
+<csym name="FAC7" sim="0.67"/>
+</qsym>
+<qsym name="FAC6">
+<csym name="FAC1" sim="0.17"/>
+<csym name="FAC2" sim="0.33"/>
+<csym name="FAC3" sim="0.5"/>
+<csym name="FAC4" sim="0.67"/>
+<csym name="FAC5" sim="0.83"/>
+<csym name="FAC7" sim="0.83"/>
+</qsym>
+<qsym name="FAC7">
+<csym name="FAC2" sim="0.17"/>
+<csym name="FAC3" sim="0.33"/>
+<csym name="FAC4" sim="0.5"/>
+<csym name="FAC5" sim="0.67"/>
+<csym name="FAC6" sim="0.83"/>
+</qsym>
+      <intfct name="face_simInternal" type="Integer" ltype="POLYNOMIAL_WITH" lparam="1.0" rtype="POLYNOMIAL_WITH" rparam="1.0" mode="DIFFERENCE" symm="false"  />
+        <order name="FAC1" index="1" />
+        <order name="FAC7" index="7" />
+        <order name="FAC4" index="4" />
+        <order name="FAC6" index="6" />
+        <order name="FAC2" index="2" />
+        <order name="FAC5" index="5" />
+        <order name="FAC3" index="3" />
+</fct>
+<fct name="default function" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
+<qsym name="FAC1">
+</qsym>
+<qsym name="FAC2">
+<csym name="FAC3" sim="0.75"/>
+</qsym>
+<qsym name="FAC3">
+<csym name="FAC2" sim="0.75"/>
+</qsym>
+<qsym name="FAC4">
+<csym name="FAC5" sim="0.75"/>
+</qsym>
+<qsym name="FAC5">
+<csym name="FAC4" sim="0.75"/>
+</qsym>
+<qsym name="FAC6">
+</qsym>
+<qsym name="FAC7">
+</qsym>
+</fct>
+    </desc>
+    <desc name="Age" type="Symbol" mult="false" >
+      <symbol value="AGE5" />
+      <symbol value="AGE3" />
+      <symbol value="AGE4" />
+      <symbol value="AGE1" />
+      <symbol value="AGE2" />
+<fct name="default function" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
+<qsym name="AGE5">
+<csym name="AGE3" sim="0.75"/>
+<csym name="AGE4" sim="0.75"/>
+<csym name="AGE1" sim="0.75"/>
+<csym name="AGE2" sim="0.75"/>
+</qsym>
+<qsym name="AGE3">
+<csym name="AGE5" sim="0.75"/>
+<csym name="AGE4" sim="0.5"/>
+<csym name="AGE2" sim="0.5"/>
+</qsym>
+<qsym name="AGE4">
+<csym name="AGE5" sim="0.75"/>
+<csym name="AGE3" sim="0.5"/>
+</qsym>
+<qsym name="AGE1">
+<csym name="AGE5" sim="0.75"/>
+<csym name="AGE2" sim="0.5"/>
+</qsym>
+<qsym name="AGE2">
+<csym name="AGE5" sim="0.75"/>
+<csym name="AGE3" sim="0.5"/>
+<csym name="AGE1" sim="0.5"/>
+</qsym>
+</fct>
+<fct name="age_sim" type="OrderedSymbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true" cyclic="false" >
+<qsym name="AGE5">
+<csym name="AGE3" sim="0.75"/>
+<csym name="AGE4" sim="0.5"/>
+<csym name="AGE1" sim="0.25"/>
+</qsym>
+<qsym name="AGE3">
+<csym name="AGE5" sim="0.75"/>
+<csym name="AGE4" sim="0.75"/>
+<csym name="AGE1" sim="0.5"/>
+<csym name="AGE2" sim="0.25"/>
+</qsym>
+<qsym name="AGE4">
+<csym name="AGE5" sim="0.5"/>
+<csym name="AGE3" sim="0.75"/>
+<csym name="AGE1" sim="0.75"/>
+<csym name="AGE2" sim="0.5"/>
+</qsym>
+<qsym name="AGE1">
+<csym name="AGE5" sim="0.25"/>
+<csym name="AGE3" sim="0.5"/>
+<csym name="AGE4" sim="0.75"/>
+<csym name="AGE2" sim="0.75"/>
+</qsym>
+<qsym name="AGE2">
+<csym name="AGE3" sim="0.25"/>
+<csym name="AGE4" sim="0.5"/>
+<csym name="AGE1" sim="0.75"/>
+</qsym>
+      <intfct name="age_simInternal" type="Integer" ltype="POLYNOMIAL_WITH" lparam="1.0" rtype="POLYNOMIAL_WITH" rparam="1.0" mode="DIFFERENCE" symm="false"  />
+        <order name="AGE3" index="2" />
+        <order name="AGE1" index="4" />
+        <order name="AGE5" index="1" />
+        <order name="AGE4" index="3" />
+        <order name="AGE2" index="5" />
+</fct>
+    </desc>
+    <amalgam name="default function" type="WEIGHTED_SUM" active="true" >
+      <entry name="Jaw" active="true" fct="default function" weight="0.3"/>
+      <entry name="Tongue" active="true" fct="default function" weight="0.4"/>
+      <entry name="Eyes" active="true" fct="default function" weight="0.6"/>
+      <entry name="Speak" active="true" fct="default function" weight="0.1"/>
+      <entry name="Disease" active="false" fct="default function" weight="0.0"/>
+      <entry name="Mouth" active="true" fct="default function" weight="0.5"/>
+      <entry name="Face" active="true" fct="default function" weight="0.7"/>
+      <entry name="Age" active="true" fct="default function" weight="0.2"/>
+    </amalgam>
+  </concept>
+</model>
+<hierarchy>
+  <fct name="default function" type="Taxonomy" mt="PARTNER_QUERY" r="REUSE" t="MAX" qconfig="INNER_NODES_ANY" cconfig="INNER_NODES_ANY" top="inheritanceDesc" sim="0.0" symm="true" >
+    <node name="Benh" sim="1.0" parent="inheritanceDesc" />
+  </fct>
+</hierarchy>
+<cases no="2" cb="cases-benh"/>
+</Project>

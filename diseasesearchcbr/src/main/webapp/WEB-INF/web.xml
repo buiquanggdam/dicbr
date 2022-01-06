@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+         version="3.0">
+    <display-name>DiseaseSearchCBR</display-name>
+    <servlet>
+        <servlet-name>DiseaseSearchQuery</servlet-name>
+        <servlet-class>com.mycompany.diseasesearchcbr.DiseaseSearchQuery</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DiseaseSearchQuery</servlet-name>
+        <url-pattern>/DiseaseSearchQuery</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>DiseaseSearchResults</servlet-name>
+        <servlet-class>com.mycompany.diseasesearchcbr.DiseaseSearchResults</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DiseaseSearchResults</servlet-name>
+        <url-pattern>/DiseaseSearchResults</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>MASGateway</servlet-name>
+        <servlet-class>com.mycompany.diseasesearchcbr.MASGateway</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>MASGateway</servlet-name>
+        <url-pattern>/MASGateway</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>DiseaseWebSearchResults</servlet-name>
+        <servlet-class>com.mycompany.diseasesearchcbr.DiseaseWebSearchResults</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DiseaseWebSearchResults</servlet-name>
+        <url-pattern>/DiseaseWebSearchResults</url-pattern>
+    </servlet-mapping>
+</web-app>
