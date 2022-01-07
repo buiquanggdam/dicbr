@@ -90,11 +90,14 @@ public class DiseaseSearchResults extends HttpServlet {
 //        queryInstance.addAttribute(disease, queryInstance);
 
 //        defaultCB.addCase(queryInstance);
+
         for (int i = 0; i < resultList.size(); i++) {
             System.out.println(resultList.get(i).toString());
         }
-
+        
         //Add new case
+        
+        
         ArrayList<Hashtable<String, String>> resultTable;
         if (resultList.size() > 0) {
             resultTable = new ArrayList<>();
@@ -176,7 +179,7 @@ public class DiseaseSearchResults extends HttpServlet {
                 request.getParameter("speak"));
 
         // Ergebnisse ausgeben
-        try (PrintWriter out = response.getWriter()) {
+        try ( PrintWriter out = response.getWriter()) {
             out.println("<!DOCTYPE html>");
             out.println("<html>");
             out.println("<head>");
@@ -199,39 +202,28 @@ public class DiseaseSearchResults extends HttpServlet {
 
                 // Đầu ra kết quả là các bệnh
                 out.println("<div class = 'result'>"
-                        + "Bệnh mà người bệnh mắc phải là: " + singleResult.get("Disease") + "</div>");
-
+                        + "Bệnh mà người bệnh mắc phải là: " + singleResult.get("Disease")+ "</div>");
+                
                 Enumeration<String> items = singleResult.keys();
 
                 // Đầu ra giới thiệu và lời khuyên
-                String tenbenh = singleResult.get("Disease");
-                if (tenbenh.equals("Rối loạn vận động chậm phát (Tardive dyskinesia)")) {
-                    out.println("<div><div>" + "Giới thiệu : Các rối loạn vận động chậm phát (TDs) là những chuyển động không kiểm soát được của lưỡi môi, mặt, thân và các chi. Bệnh thường xảy ra ở những người đang dùng các thuốc kháng acid dopaminergic dài hạn. Bệnh nhân tâm thần phân liệt, rối loạn tâm thần phân liệt, rối loạn lưỡng cực đã được điều trị bằng thuốc chống loạn thần trong thời gian dài thường mắt phải các chứng rối loạn vận động chậm, nhưng bệnh này có thể xuất hiện ở những bệnh nhân khác. Tình trạng sức khoẻ này rất phổ biến, bệnh có thể ảnh thướng đến bệnh nhân ở mọi lứa tuổi. "
-                            + "  <strong>"
-                            + "<div><div>" + "Lời khuyên : Người bệnh không thể chữa khỏi được, hãy cố gắng sống tốt" + "</div></div>"
-                            + "</strong></div>" + "</div>");
-                } else if (tenbenh.equals("Bình thường (không có bệnh)")) {
-                    out.println("<div><div>" + "Giới thiệu : Người bệnh bình thường) <strong>"
-                            + "</strong>"
-                            + "<div><div>" + "Lời khuyên : Uống nhiều nước, hạn chế đồ ngọt, tăng cường tập thể dục" + "</div></div>"
-                            + "</strong></div>" + "</div>");
-                } else if (tenbenh.equals("Co giật nửa mặt (Hemifacial Spasm)")) {
-                    out.println("<div><div>" + "Giới thiệu : Co giật nửa mặt (Hemifacial Spasm) là một tình trạng co giật không tự ý, ngắt quãng của các nhóm cơ chi phối dây thần kinh VII ở một bên mặt và không gây đau. Bệnh tuy không gây đau và đe doạ tình mạng, nhưng gây ảnh hưởng rất lớn đến tâm lý và tinh thần của người bênh, từ đó làm cản trở trong giao tiếp xã hội và ảnh hưởng đến sinh hoạt và công việc. Thường xuất hiện ở các bệnh nhân từ 40 tuổi đến 60 tuổi) "
-                            + "<div><div>" + "Lời khuyên : Người bệnh cần đi cấp cứu nếu người bệnh bị co giật quá 5 phút, tập thể dục thường xuyên, ăn uống điều độ" + "</div></div>"
-                            + "</strong></div>" + "</div>");
-                } else if (tenbenh.equals("Co thắt mí mắt (Blepharospasm)")) {
-                    out.println("<div><div>" + "Giới thiệu : Co thắt mí mắt là một rối loạn thần kinh gây ra các cử động cơ không kiểm soát được khiến mí mắt đóng lại hoặc khó mở (loạn trương lực cơ). Điều này có thể ảnh hưởng đến khả năng nhìn của bệnh nhân. Độ tuổi trung bình của các bệnh nhân là từ 40 đến 60 tuổi "
-                            + "<div><div>" + "Lời khuyên : Người bệnh cần đi cấp cứu nếu mí mắt co giật quá 5 phút, tập thể dục thường xuyên, ăn uống điều độ, hạn chế hút thuốc" + "</div></div>"
-                            + "</strong></div>" + "</div>");
-                }else if (tenbenh.equals("Hội chứng Meige")) {
-                    out.println("<div><div>" + "Giới thiệu : Hội chứng Meige là một dạng hiếm gặp của chứng loạn trương lực cơ, một chứng rối loạn hệ thần kinh, trong đó một người thường xuyên bị co thắt cưỡng bức của mắt, hàm, lưỡi và các cơ mặt dưới. Các cơn co thắt có thể giống như cảm giác bị đâm, tương tự như bị điện giật. Vì các cử động nằm ngoài khả năng kiểm soát của người bị bệnh, chúng có thể gây ra sự khó khăn trong các tình huống xã hội. Độ tuổi dễ mắc bệnh là từ 40 tuổi đến 60 tuổi "
-                            + "<div><div>" + "Lời khuyên : Người bệnh cần thông báo tình trạng bản thân trước với mọi người, tập thể dục thường xuyên, ăn uống điều độ, hạn chế hút thuốc, uống rượu" + "</div></div>"
-                            + "</strong></div>" + "</div>");
-                }else if (tenbenh.equals("Hội trứng Tourette")) {
-                    out.println("<div><div>" + "Giới thiệu : Hội trứng Tourette là một chứng rối loạn liên quan đến các chuyển động lặp đi lặp lại hoặc âm thanh không mong muốn (tics) không thể dễ dàng kiểm soát được. Ví dụ, bạn có thể liên tục chớp mắt, nhún vai hoặc thốt ra những âm thanh bất thường hoặc những từ xúc phạm. Tics thường xuất hiện trong độ tuổi từ 2 đến 15, với độ tuổi trung bình là khoảng 6 tuổi. Nam giới có nguy cơ mắc hội chứng Tourette cao hơn nữ giới khoảng 3-4 lần "
-                            + "<div><div>" + "Lời khuyên : Người bệnh cần thông báo tình trạng bản thân trước với mọi người, tập thể dục thường xuyên, ăn uống điều độ, hạn chế hút thuốc, uống rượu" + "</div></div>"
-                            + "</strong></div>" + "</div>");
-                }
+                     String tenbenh = singleResult.get("Disease");
+        if( tenbenh.equals("Rối loạn vận động chậm phát (Tardive dyskinesia)")){
+            out.println("<div><div>" + "Giới thiệu : Các rối loạn vận động chậm phát (TDs) là những chuyển động không kiểm soát được của lưỡi môi, mặt, thân và các chi. Bệnh thường xảy ra ở những người đang dùng các thuốc kháng acid dopaminergic dài hạn. Bệnh nhân tâm thần phân liệt, rối loạn tâm thần phân liệt, rối loạn lưỡng cực đã được điều trị bằng thuốc chống loạn thần trong thời gian dài thường mắt phải các chứng rối loạn vận động chậm, nhưng bệnh này có thể xuất hiện ở những bệnh nhân khác. Tình trạng sức khoẻ này rất phổ biến, bệnh có thể ảnh thướng đến bệnh nhân ở mọi lứa tuổi. "
+                    + "  <strong>" +
+                    "<div><div>" + "Lời khuyên : Người bệnh không thể chữa khỏi được, hãy cố gắng sống tốt" + "</div></div>"
+                    
+                      + "</strong></div>" + "</div>");
+        } else if(tenbenh.equals("Bình thường (không có bệnh)")){
+            out.println("<div><div>" + "Giới thiệu : Người bệnh bình thường) <strong>" 
+                      + "</strong>" +
+                    "<div><div>" + "Lời khuyên : Uống nhiều nước, hạn chế đồ ngọt, tăng cường tập thể dục" + "</div></div>"
+            + "</strong></div>" + "</div>");
+        }else if(tenbenh.equals("Co giật nửa mặt (Hemifacial Spasm)")){
+            out.println("<div><div>" + "Giới thiệu : Co giật nửa mặt (Hemifacial Spasm) là một tình trạng co giật không tự ý, ngắt quãng của các nhóm cơ chi phối dây thần kinh VII ở một bên mặt và không gây đau. Bệnh tuy không gây đau và đe doạ tình mạng, nhưng gây ảnh hưởng rất lớn đến tâm lý và tinh thần của người bênh, từ đó làm cản trở trong giao tiếp xã hội và ảnh hưởng đến sinh hoạt và công việc. Thường xuất hiện ở các bệnh nhân từ 40 tuổi đến 60 tuổi) " 
+                      +
+                    "<div><div>" + "Lời khuyên : Người bệnh cần đi cấp cứu nếu người bệnh bị co giật quá 5 phút, tập thể dục thường xuyên, ăn uống điều độ" + "</div></div>"
+            + "</strong></div>" + "</div>");}
             });
             out.println("</div>");
             out.println("</body>");
