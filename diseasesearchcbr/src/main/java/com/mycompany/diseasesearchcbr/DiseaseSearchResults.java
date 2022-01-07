@@ -36,7 +36,7 @@ public class DiseaseSearchResults extends HttpServlet {
     private final Project prj;
     private final ICaseBase defaultCB;
     private final Concept concept;
-    private int casesCount = 2;
+    private int casesCount = 1;
 
     public DiseaseSearchResults() {
         CBRInit cbrinit = new CBRInit();
@@ -206,9 +206,24 @@ public class DiseaseSearchResults extends HttpServlet {
                 
                 Enumeration<String> items = singleResult.keys();
 
-                // Đầu ra giá trị tương tự so với kết quả
-                out.println("<div><div>" + "SimScore: <strong>" + singleResult.get("Sim")
-                        + "</strong></div>" + "</div>");
+                // Đầu ra giới thiệu và lời khuyên
+                     String tenbenh = singleResult.get("Disease");
+        if( tenbenh.equals("Rối loạn vận động chậm phát (Tardive dyskinesia)")){
+            out.println("<div><div>" + "Giới thiệu : Các rối loạn vận động chậm phát (TDs) là những chuyển động không kiểm soát được của lưỡi môi, mặt, thân và các chi. Bệnh thường xảy ra ở những người đang dùng các thuốc kháng acid dopaminergic dài hạn. Bệnh nhân tâm thần phân liệt, rối loạn tâm thần phân liệt, rối loạn lưỡng cực đã được điều trị bằng thuốc chống loạn thần trong thời gian dài thường mắt phải các chứng rối loạn vận động chậm, nhưng bệnh này có thể xuất hiện ở những bệnh nhân khác. Tình trạng sức khoẻ này rất phổ biến, bệnh có thể ảnh thướng đến bệnh nhân ở mọi lứa tuổi. "
+                    + "  <strong>" +
+                    "<div><div>" + "Lời khuyên : Người bệnh không thể chữa khỏi được, hãy cố gắng sống tốt" + "</div></div>"
+                    
+                      + "</strong></div>" + "</div>");
+        } else if(tenbenh.equals("Bình thường (không có bệnh)")){
+            out.println("<div><div>" + "Giới thiệu : Người bệnh bình thường) <strong>" 
+                      + "</strong>" +
+                    "<div><div>" + "Lời khuyên : Uống nhiều nước, hạn chế đồ ngọt, tăng cường tập thể dục" + "</div></div>"
+            + "</strong></div>" + "</div>");
+        }else if(tenbenh.equals("Co giật nửa mặt (Hemifacial Spasm)")){
+            out.println("<div><div>" + "Giới thiệu : Co giật nửa mặt (Hemifacial Spasm) là một tình trạng co giật không tự ý, ngắt quãng của các nhóm cơ chi phối dây thần kinh VII ở một bên mặt và không gây đau. Bệnh tuy không gây đau và đe doạ tình mạng, nhưng gây ảnh hưởng rất lớn đến tâm lý và tinh thần của người bênh, từ đó làm cản trở trong giao tiếp xã hội và ảnh hưởng đến sinh hoạt và công việc. Thường xuất hiện ở các bệnh nhân từ 40 tuổi đến 60 tuổi) " 
+                      +
+                    "<div><div>" + "Lời khuyên : Người bệnh cần đi cấp cứu nếu người bệnh bị co giật quá 5 phút, tập thể dục thường xuyên, ăn uống điều độ" + "</div></div>"
+            + "</strong></div>" + "</div>");}
             });
             out.println("</div>");
             out.println("</body>");
