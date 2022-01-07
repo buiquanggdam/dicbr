@@ -4,11 +4,11 @@
   <desc>
               </desc>
 </exp>
-<exp obj="Tongue" c="Benh" type="AttributeDesc" >
+<exp obj="CaseBaseBenh" type="Concept" >
   <desc>
-              </desc>
+  </desc>
 </exp>
-<exp obj="Speak" c="Benh" type="AttributeDesc" >
+<exp obj="Jaw" c="Benh" type="AttributeDesc" >
   <desc>
               </desc>
 </exp>
@@ -16,7 +16,11 @@
   <desc>
               </desc>
 </exp>
-<exp obj="Jaw" c="Benh" type="AttributeDesc" >
+<exp obj="Mouth" c="Benh" type="AttributeDesc" >
+  <desc>
+              </desc>
+</exp>
+<exp obj="Speak" c="Benh" type="AttributeDesc" >
   <desc>
               </desc>
 </exp>
@@ -28,11 +32,11 @@
   <desc>
           </desc>
 </exp>
-<exp obj="Face" c="Benh" type="AttributeDesc" >
+<exp obj="Tongue" c="Benh" type="AttributeDesc" >
   <desc>
               </desc>
 </exp>
-<exp obj="Mouth" c="Benh" type="AttributeDesc" >
+<exp obj="Face" c="Benh" type="AttributeDesc" >
   <desc>
               </desc>
 </exp>

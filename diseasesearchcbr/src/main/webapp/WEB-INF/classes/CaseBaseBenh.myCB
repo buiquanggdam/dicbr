@@ -2,664 +2,664 @@
 <Project name="CaseBaseBenh" author="" >
 <instances name="Benh">
   <instance id="Benh #22" >
-    <att name="Tongue" value="TON2" />
-    <att name="Speak" value="SPE1" />
-    <att name="Age" value="AGE5" />
     <att name="Jaw" value="JAW3" />
+    <att name="Age" value="AGE5" />
+    <att name="Mouth" value="MOU6" />
+    <att name="Speak" value="SPE1" />
     <att name="Eyes" value="EYE3,EYE4" />
     <att name="Disease" value="Li&#7879;t d&#226;y th&#7847;n kinh m&#7863;t Bell&#8217;s Palsy" />
+    <att name="Tongue" value="TON2" />
     <att name="Face" value="FAC4" />
-    <att name="Mouth" value="MOU6" />
   </instance>
   <instance id="Benh #23" >
-    <att name="Tongue" value="TON2" />
-    <att name="Speak" value="SPE1" />
-    <att name="Age" value="AGE5" />
     <att name="Jaw" value="JAW3" />
+    <att name="Age" value="AGE5" />
+    <att name="Mouth" value="MOU6" />
+    <att name="Speak" value="SPE1" />
     <att name="Eyes" value="EYE3,EYE4" />
     <att name="Disease" value="Li&#7879;t d&#226;y th&#7847;n kinh m&#7863;t Bell&#8217;s Palsy" />
+    <att name="Tongue" value="TON2" />
     <att name="Face" value="FAC3,FAC4" />
-    <att name="Mouth" value="MOU6" />
   </instance>
   <instance id="Benh #24" >
-    <att name="Tongue" value="TON2" />
-    <att name="Speak" value="SPE1" />
-    <att name="Age" value="AGE5" />
     <att name="Jaw" value="JAW3" />
+    <att name="Age" value="AGE5" />
+    <att name="Mouth" value="MOU7" />
+    <att name="Speak" value="SPE1" />
     <att name="Eyes" value="EYE3,EYE4" />
     <att name="Disease" value="Li&#7879;t d&#226;y th&#7847;n kinh m&#7863;t Bell&#8217;s Palsy" />
+    <att name="Tongue" value="TON2" />
     <att name="Face" value="FAC3" />
-    <att name="Mouth" value="MOU7" />
   </instance>
   <instance id="Benh #25" >
-    <att name="Tongue" value="TON2" />
-    <att name="Speak" value="SPE1" />
-    <att name="Age" value="AGE5" />
     <att name="Jaw" value="JAW3" />
+    <att name="Age" value="AGE5" />
+    <att name="Mouth" value="MOU7" />
+    <att name="Speak" value="SPE1" />
     <att name="Eyes" value="EYE3,EYE4" />
     <att name="Disease" value="Li&#7879;t d&#226;y th&#7847;n kinh m&#7863;t Bell&#8217;s Palsy" />
+    <att name="Tongue" value="TON2" />
     <att name="Face" value="FAC4" />
-    <att name="Mouth" value="MOU7" />
   </instance>
   <instance id="Benh #26" >
-    <att name="Tongue" value="TON2" />
-    <att name="Speak" value="SPE1" />
-    <att name="Age" value="AGE5" />
     <att name="Jaw" value="JAW3" />
+    <att name="Age" value="AGE5" />
+    <att name="Mouth" value="MOU6,MOU7" />
+    <att name="Speak" value="SPE1" />
     <att name="Eyes" value="EYE3,EYE4" />
     <att name="Disease" value="Li&#7879;t d&#226;y th&#7847;n kinh m&#7863;t Bell&#8217;s Palsy" />
+    <att name="Tongue" value="TON2" />
     <att name="Face" value="FAC3,FAC4" />
-    <att name="Mouth" value="MOU6,MOU7" />
   </instance>
   <instance id="Benh #27" >
-    <att name="Tongue" value="TON2" />
-    <att name="Speak" value="SPE1" />
-    <att name="Age" value="AGE5" />
     <att name="Jaw" value="JAW3" />
+    <att name="Age" value="AGE5" />
+    <att name="Mouth" value="MOU6" />
+    <att name="Speak" value="SPE1" />
     <att name="Eyes" value="EYE4,EYE5" />
     <att name="Disease" value="Li&#7879;t d&#226;y th&#7847;n kinh m&#7863;t Bell&#8217;s Palsy" />
+    <att name="Tongue" value="TON2" />
     <att name="Face" value="FAC3,FAC4" />
-    <att name="Mouth" value="MOU6" />
   </instance>
   <instance id="Benh #28" >
-    <att name="Tongue" value="TON2" />
-    <att name="Speak" value="SPE1" />
-    <att name="Age" value="AGE5" />
     <att name="Jaw" value="JAW3" />
+    <att name="Age" value="AGE5" />
+    <att name="Mouth" value="MOU7" />
+    <att name="Speak" value="SPE1" />
     <att name="Eyes" value="EYE4,EYE5" />
     <att name="Disease" value="Li&#7879;t d&#226;y th&#7847;n kinh m&#7863;t Bell&#8217;s Palsy" />
+    <att name="Tongue" value="TON2" />
     <att name="Face" value="FAC3,FAC4" />
-    <att name="Mouth" value="MOU7" />
   </instance>
   <instance id="Benh #29" >
-    <att name="Tongue" value="TON2" />
-    <att name="Speak" value="SPE1" />
-    <att name="Age" value="AGE5" />
     <att name="Jaw" value="JAW3" />
+    <att name="Age" value="AGE5" />
+    <att name="Mouth" value="MOU6,MOU7" />
+    <att name="Speak" value="SPE1" />
     <att name="Eyes" value="EYE3,EYE4" />
     <att name="Disease" value="Li&#7879;t d&#226;y th&#7847;n kinh m&#7863;t Bell&#8217;s Palsy" />
+    <att name="Tongue" value="TON2" />
     <att name="Face" value="FAC3" />
-    <att name="Mouth" value="MOU6,MOU7" />
   </instance>
   <instance id="Benh #30" >
-    <att name="Tongue" value="TON2" />
-    <att name="Speak" value="SPE1" />
-    <att name="Age" value="AGE5" />
     <att name="Jaw" value="JAW3" />
+    <att name="Age" value="AGE5" />
+    <att name="Mouth" value="MOU6" />
+    <att name="Speak" value="SPE1" />
     <att name="Eyes" value="EYE4,EYE5" />
     <att name="Disease" value="Li&#7879;t d&#226;y th&#7847;n kinh m&#7863;t Bell&#8217;s Palsy" />
+    <att name="Tongue" value="TON2" />
     <att name="Face" value="FAC3" />
-    <att name="Mouth" value="MOU6" />
   </instance>
   <instance id="Benh #31" >
-    <att name="Tongue" value="TON3" />
-    <att name="Speak" value="SPE1" />
-    <att name="Age" value="AGE5" />
     <att name="Jaw" value="JAW3" />
+    <att name="Age" value="AGE5" />
+    <att name="Mouth" value="MOU7" />
+    <att name="Speak" value="SPE1" />
     <att name="Eyes" value="EYE4,EYE5" />
     <att name="Disease" value="Li&#7879;t d&#226;y th&#7847;n kinh m&#7863;t Bell&#8217;s Palsy" />
+    <att name="Tongue" value="TON3" />
     <att name="Face" value="FAC3" />
-    <att name="Mouth" value="MOU7" />
   </instance>
   <instance id="Benh #32" >
-    <att name="Tongue" value="TON2" />
-    <att name="Speak" value="SPE1" />
-    <att name="Age" value="AGE5" />
     <att name="Jaw" value="JAW3" />
+    <att name="Age" value="AGE5" />
+    <att name="Mouth" value="MOU6,MOU7" />
+    <att name="Speak" value="SPE1" />
     <att name="Eyes" value="EYE4,EYE5" />
     <att name="Disease" value="Li&#7879;t d&#226;y th&#7847;n kinh m&#7863;t Bell&#8217;s Palsy" />
+    <att name="Tongue" value="TON2" />
     <att name="Face" value="FAC4" />
-    <att name="Mouth" value="MOU6,MOU7" />
   </instance>
   <instance id="Benh #11" >
-    <att name="Tongue" value="TON5" />
-    <att name="Speak" value="SPE2" />
-    <att name="Age" value="AGE1" />
     <att name="Jaw" value="JAW5" />
+    <att name="Age" value="AGE1" />
+    <att name="Mouth" value="MOU4" />
+    <att name="Speak" value="SPE2" />
     <att name="Eyes" value="EYE1" />
     <att name="Disease" value="H&#7897;i tr&#7913;ng Tourette" />
+    <att name="Tongue" value="TON5" />
     <att name="Face" value="FAC1" />
-    <att name="Mouth" value="MOU4" />
   </instance>
   <instance id="Benh #55" >
-    <att name="Tongue" value="TON2" />
-    <att name="Speak" value="SPE1" />
-    <att name="Age" value="AGE5" />
     <att name="Jaw" value="JAW3" />
+    <att name="Age" value="AGE5" />
+    <att name="Mouth" value="MOU7" />
+    <att name="Speak" value="SPE1" />
     <att name="Eyes" value="EYE5" />
     <att name="Disease" value="Li&#7879;t d&#226;y th&#7847;n kinh m&#7863;t Bell&#8217;s Palsy" />
+    <att name="Tongue" value="TON2" />
     <att name="Face" value="FAC3,FAC4" />
-    <att name="Mouth" value="MOU7" />
   </instance>
   <instance id="Benh #12" >
-    <att name="Tongue" value="TON5" />
-    <att name="Speak" value="SPE2" />
-    <att name="Age" value="AGE1" />
     <att name="Jaw" value="JAW5" />
+    <att name="Age" value="AGE1" />
+    <att name="Mouth" value="MOU3,MOU4" />
+    <att name="Speak" value="SPE2" />
     <att name="Eyes" value="EYE1" />
     <att name="Disease" value="H&#7897;i tr&#7913;ng Tourette" />
+    <att name="Tongue" value="TON5" />
     <att name="Face" value="FAC1" />
-    <att name="Mouth" value="MOU3,MOU4" />
   </instance>
   <instance id="Benh #56" >
-    <att name="Tongue" value="TON2" />
-    <att name="Speak" value="SPE1" />
-    <att name="Age" value="AGE5" />
     <att name="Jaw" value="JAW3" />
+    <att name="Age" value="AGE5" />
+    <att name="Mouth" value="MOU6,MOU7" />
+    <att name="Speak" value="SPE1" />
     <att name="Eyes" value="EYE5" />
     <att name="Disease" value="Li&#7879;t d&#226;y th&#7847;n kinh m&#7863;t Bell&#8217;s Palsy" />
+    <att name="Tongue" value="TON2" />
     <att name="Face" value="FAC3" />
-    <att name="Mouth" value="MOU6,MOU7" />
   </instance>
   <instance id="Benh #13" >
-    <att name="Tongue" value="TON5" />
-    <att name="Speak" value="SPE2" />
-    <att name="Age" value="AGE1" />
     <att name="Jaw" value="JAW5" />
+    <att name="Age" value="AGE1" />
+    <att name="Mouth" value="MOU3" />
+    <att name="Speak" value="SPE2" />
     <att name="Eyes" value="EYE1,EYE2" />
     <att name="Disease" value="H&#7897;i tr&#7913;ng Tourette" />
+    <att name="Tongue" value="TON5" />
     <att name="Face" value="FAC1" />
-    <att name="Mouth" value="MOU3" />
   </instance>
   <instance id="Benh #57" >
-    <att name="Tongue" value="TON2" />
-    <att name="Speak" value="SPE1" />
-    <att name="Age" value="AGE5" />
     <att name="Jaw" value="JAW3" />
+    <att name="Age" value="AGE5" />
+    <att name="Mouth" value="MOU6" />
+    <att name="Speak" value="SPE1" />
     <att name="Eyes" value="EYE5" />
     <att name="Disease" value="Li&#7879;t d&#226;y th&#7847;n kinh m&#7863;t Bell&#8217;s Palsy" />
+    <att name="Tongue" value="TON2" />
     <att name="Face" value="FAC3" />
-    <att name="Mouth" value="MOU6" />
   </instance>
   <instance id="Benh #14" >
-    <att name="Tongue" value="TON5" />
-    <att name="Speak" value="SPE2" />
-    <att name="Age" value="AGE1" />
     <att name="Jaw" value="JAW5" />
+    <att name="Age" value="AGE1" />
+    <att name="Mouth" value="MOU4" />
+    <att name="Speak" value="SPE2" />
     <att name="Eyes" value="EYE1,EYE2" />
     <att name="Disease" value="H&#7897;i tr&#7913;ng Tourette" />
+    <att name="Tongue" value="TON5" />
     <att name="Face" value="FAC1" />
-    <att name="Mouth" value="MOU4" />
   </instance>
   <instance id="Benh #58" >
-    <att name="Tongue" value="TON2" />
-    <att name="Speak" value="SPE1" />
-    <att name="Age" value="AGE5" />
     <att name="Jaw" value="JAW3" />
+    <att name="Age" value="AGE5" />
+    <att name="Mouth" value="MOU7" />
+    <att name="Speak" value="SPE1" />
     <att name="Eyes" value="EYE5" />
     <att name="Disease" value="Li&#7879;t d&#226;y th&#7847;n kinh m&#7863;t Bell&#8217;s Palsy" />
+    <att name="Tongue" value="TON2" />
     <att name="Face" value="FAC3" />
-    <att name="Mouth" value="MOU7" />
   </instance>
   <instance id="Benh #15" >
-    <att name="Tongue" value="TON5" />
-    <att name="Speak" value="SPE2" />
-    <att name="Age" value="AGE1" />
     <att name="Jaw" value="JAW5" />
+    <att name="Age" value="AGE1" />
+    <att name="Mouth" value="MOU3,MOU4" />
+    <att name="Speak" value="SPE2" />
     <att name="Eyes" value="EYE1,EYE2" />
     <att name="Disease" value="H&#7897;i tr&#7913;ng Tourette" />
+    <att name="Tongue" value="TON5" />
     <att name="Face" value="FAC1" />
-    <att name="Mouth" value="MOU3,MOU4" />
   </instance>
   <instance id="Benh #59" >
-    <att name="Tongue" value="TON2" />
-    <att name="Speak" value="SPE1" />
-    <att name="Age" value="AGE5" />
     <att name="Jaw" value="JAW3" />
+    <att name="Age" value="AGE5" />
+    <att name="Mouth" value="MOU6,MOU7" />
+    <att name="Speak" value="SPE1" />
     <att name="Eyes" value="EYE5" />
     <att name="Disease" value="Li&#7879;t d&#226;y th&#7847;n kinh m&#7863;t Bell&#8217;s Palsy" />
+    <att name="Tongue" value="TON2" />
     <att name="Face" value="FAC4" />
-    <att name="Mouth" value="MOU6,MOU7" />
   </instance>
   <instance id="Benh #16" >
-    <att name="Tongue" value="TON1" />
-    <att name="Speak" value="SPE2" />
-    <att name="Age" value="AGE5" />
     <att name="Jaw" value="JAW5" />
+    <att name="Age" value="AGE5" />
+    <att name="Mouth" value="MOU2" />
+    <att name="Speak" value="SPE2" />
     <att name="Eyes" value="EYE1" />
     <att name="Disease" value="R&#7889;i lo&#7841;n TIC" />
+    <att name="Tongue" value="TON1" />
     <att name="Face" value="FAC1" />
-    <att name="Mouth" value="MOU2" />
   </instance>
   <instance id="Benh #17" >
-    <att name="Tongue" value="TON2" />
-    <att name="Speak" value="SPE1" />
-    <att name="Age" value="AGE5" />
     <att name="Jaw" value="JAW3" />
+    <att name="Age" value="AGE5" />
+    <att name="Mouth" value="MOU6,MOU7" />
+    <att name="Speak" value="SPE1" />
     <att name="Eyes" value="EYE3,EYE4" />
     <att name="Disease" value="Li&#7879;t d&#226;y th&#7847;n kinh m&#7863;t Bell&#8217;s Palsy" />
+    <att name="Tongue" value="TON2" />
     <att name="Face" value="FAC3,FAC4" />
-    <att name="Mouth" value="MOU6,MOU7" />
   </instance>
   <instance id="Benh #18" >
-    <att name="Tongue" value="TON2" />
-    <att name="Speak" value="SPE1" />
-    <att name="Age" value="AGE5" />
     <att name="Jaw" value="JAW3" />
+    <att name="Age" value="AGE5" />
+    <att name="Mouth" value="MOU6,MOU7" />
+    <att name="Speak" value="SPE1" />
     <att name="Eyes" value="EYE3,EYE4" />
     <att name="Disease" value="Li&#7879;t d&#226;y th&#7847;n kinh m&#7863;t Bell&#8217;s Palsy" />
+    <att name="Tongue" value="TON2" />
     <att name="Face" value="FAC3" />
-    <att name="Mouth" value="MOU6,MOU7" />
   </instance>
   <instance id="Benh #19" >
-    <att name="Tongue" value="TON2" />
-    <att name="Speak" value="SPE1" />
-    <att name="Age" value="AGE5" />
     <att name="Jaw" value="JAW3" />
+    <att name="Age" value="AGE5" />
+    <att name="Mouth" value="MOU6,MOU7" />
+    <att name="Speak" value="SPE1" />
     <att name="Eyes" value="EYE3,EYE4" />
     <att name="Disease" value="Li&#7879;t d&#226;y th&#7847;n kinh m&#7863;t Bell&#8217;s Palsy" />
+    <att name="Tongue" value="TON2" />
     <att name="Face" value="FAC4" />
-    <att name="Mouth" value="MOU6,MOU7" />
   </instance>
   <instance id="Benh #60" >
-    <att name="Tongue" value="TON2" />
-    <att name="Speak" value="SPE1" />
-    <att name="Age" value="AGE5" />
     <att name="Jaw" value="JAW3" />
+    <att name="Age" value="AGE5" />
+    <att name="Mouth" value="MOU6" />
+    <att name="Speak" value="SPE1" />
     <att name="Eyes" value="EYE5" />
     <att name="Disease" value="Li&#7879;t d&#226;y th&#7847;n kinh m&#7863;t Bell&#8217;s Palsy" />
+    <att name="Tongue" value="TON2" />
     <att name="Face" value="FAC4" />
-    <att name="Mouth" value="MOU6" />
   </instance>
   <instance id="Benh #61" >
-    <att name="Tongue" value="TON2" />
-    <att name="Speak" value="SPE1" />
-    <att name="Age" value="AGE5" />
     <att name="Jaw" value="JAW3" />
+    <att name="Age" value="AGE5" />
+    <att name="Mouth" value="MOU7" />
+    <att name="Speak" value="SPE1" />
     <att name="Eyes" value="EYE5" />
     <att name="Disease" value="Li&#7879;t d&#226;y th&#7847;n kinh m&#7863;t Bell&#8217;s Palsy" />
+    <att name="Tongue" value="TON2" />
     <att name="Face" value="FAC4" />
-    <att name="Mouth" value="MOU7" />
   </instance>
   <instance id="Benh #62" >
-    <att name="Tongue" value="TON3" />
-    <att name="Speak" value="SPE3" />
-    <att name="Age" value="AGE4" />
     <att name="Jaw" value="JAW3" />
+    <att name="Age" value="AGE4" />
+    <att name="Mouth" value="MOU5" />
+    <att name="Speak" value="SPE3" />
     <att name="Eyes" value="EYE1" />
     <att name="Disease" value="&#272;au d&#226;y th&#7847;n kinh sinh ba" />
+    <att name="Tongue" value="TON3" />
     <att name="Face" value="FAC6" />
-    <att name="Mouth" value="MOU5" />
   </instance>
   <instance id="Benh #63" >
-    <att name="Tongue" value="TON5" />
-    <att name="Speak" value="SPE1" />
-    <att name="Age" value="AGE5" />
     <att name="Jaw" value="JAW5" />
+    <att name="Age" value="AGE5" />
+    <att name="Mouth" value="MOU6" />
+    <att name="Speak" value="SPE1" />
     <att name="Eyes" value="EYE6" />
     <att name="Disease" value="&#272;&#7897;t qu&#7925;" />
+    <att name="Tongue" value="TON5" />
     <att name="Face" value="FAC4" />
-    <att name="Mouth" value="MOU6" />
   </instance>
   <instance id="Benh #20" >
-    <att name="Tongue" value="TON2" />
-    <att name="Speak" value="SPE1" />
-    <att name="Age" value="AGE5" />
     <att name="Jaw" value="JAW3" />
+    <att name="Age" value="AGE5" />
+    <att name="Mouth" value="MOU6,MOU7" />
+    <att name="Speak" value="SPE1" />
     <att name="Eyes" value="EYE3,EYE4" />
     <att name="Disease" value="Li&#7879;t d&#226;y th&#7847;n kinh m&#7863;t Bell&#8217;s Palsy" />
+    <att name="Tongue" value="TON2" />
     <att name="Face" value="FAC3,FAC4" />
-    <att name="Mouth" value="MOU6,MOU7" />
   </instance>
   <instance id="Benh #64" >
-    <att name="Tongue" value="TON5" />
-    <att name="Speak" value="SPE1" />
-    <att name="Age" value="AGE5" />
     <att name="Jaw" value="JAW5" />
+    <att name="Age" value="AGE5" />
+    <att name="Mouth" value="MOU6" />
+    <att name="Speak" value="SPE1" />
     <att name="Eyes" value="EYE6" />
     <att name="Disease" value="&#272;&#7897;t qu&#7925;" />
+    <att name="Tongue" value="TON5" />
     <att name="Face" value="FAC5" />
-    <att name="Mouth" value="MOU6" />
   </instance>
   <instance id="Benh #21" >
-    <att name="Tongue" value="TON2" />
-    <att name="Speak" value="SPE1" />
-    <att name="Age" value="AGE5" />
     <att name="Jaw" value="JAW3" />
+    <att name="Age" value="AGE5" />
+    <att name="Mouth" value="MOU6" />
+    <att name="Speak" value="SPE1" />
     <att name="Eyes" value="EYE3,EYE4" />
     <att name="Disease" value="Li&#7879;t d&#226;y th&#7847;n kinh m&#7863;t Bell&#8217;s Palsy" />
+    <att name="Tongue" value="TON2" />
     <att name="Face" value="FAC3" />
-    <att name="Mouth" value="MOU6" />
   </instance>
   <instance id="Benh #65" >
-    <att name="Tongue" value="TON5" />
-    <att name="Speak" value="SPE3" />
-    <att name="Age" value="AGE5" />
     <att name="Jaw" value="JAW5" />
+    <att name="Age" value="AGE5" />
+    <att name="Mouth" value="MOU8" />
+    <att name="Speak" value="SPE3" />
     <att name="Eyes" value="EYE7" />
     <att name="Disease" value="B&#236;nh th&#432;&#7901;ng (kh&#244;ng c&#243; b&#7879;nh)" />
+    <att name="Tongue" value="TON5" />
     <att name="Face" value="FAC7" />
-    <att name="Mouth" value="MOU8" />
   </instance>
   <instance id="Benh #44" >
-    <att name="Tongue" value="TON2" />
-    <att name="Speak" value="SPE1" />
-    <att name="Age" value="AGE5" />
     <att name="Jaw" value="JAW3" />
+    <att name="Age" value="AGE5" />
+    <att name="Mouth" value="MOU6,MOU7" />
+    <att name="Speak" value="SPE1" />
     <att name="Eyes" value="EYE4" />
     <att name="Disease" value="Li&#7879;t d&#226;y th&#7847;n kinh m&#7863;t Bell&#8217;s Palsy" />
+    <att name="Tongue" value="TON2" />
     <att name="Face" value="FAC3,FAC4" />
-    <att name="Mouth" value="MOU6,MOU7" />
   </instance>
   <instance id="Benh #45" >
-    <att name="Tongue" value="TON2" />
-    <att name="Speak" value="SPE1" />
-    <att name="Age" value="AGE5" />
     <att name="Jaw" value="JAW3" />
+    <att name="Age" value="AGE5" />
+    <att name="Mouth" value="MOU6" />
+    <att name="Speak" value="SPE1" />
     <att name="Eyes" value="EYE4" />
     <att name="Disease" value="Li&#7879;t d&#226;y th&#7847;n kinh m&#7863;t Bell&#8217;s Palsy" />
+    <att name="Tongue" value="TON2" />
     <att name="Face" value="FAC3,FAC4" />
-    <att name="Mouth" value="MOU6" />
   </instance>
   <instance id="Benh #46" >
-    <att name="Tongue" value="TON2" />
-    <att name="Speak" value="SPE1" />
-    <att name="Age" value="AGE5" />
     <att name="Jaw" value="JAW5" />
+    <att name="Age" value="AGE5" />
+    <att name="Mouth" value="MOU7" />
+    <att name="Speak" value="SPE1" />
     <att name="Eyes" value="EYE4" />
     <att name="Disease" value="Li&#7879;t d&#226;y th&#7847;n kinh m&#7863;t Bell&#8217;s Palsy" />
+    <att name="Tongue" value="TON2" />
     <att name="Face" value="FAC3,FAC4" />
-    <att name="Mouth" value="MOU7" />
   </instance>
   <instance id="Benh #47" >
-    <att name="Tongue" value="TON2" />
-    <att name="Speak" value="SPE1" />
-    <att name="Age" value="AGE5" />
     <att name="Jaw" value="JAW3" />
+    <att name="Age" value="AGE5" />
+    <att name="Mouth" value="MOU6,MOU7" />
+    <att name="Speak" value="SPE1" />
     <att name="Eyes" value="EYE4" />
     <att name="Disease" value="Li&#7879;t d&#226;y th&#7847;n kinh m&#7863;t Bell&#8217;s Palsy" />
+    <att name="Tongue" value="TON2" />
     <att name="Face" value="FAC4" />
-    <att name="Mouth" value="MOU6,MOU7" />
   </instance>
   <instance id="Benh #48" >
-    <att name="Tongue" value="TON2" />
-    <att name="Speak" value="SPE1" />
-    <att name="Age" value="AGE5" />
     <att name="Jaw" value="JAW3" />
+    <att name="Age" value="AGE5" />
+    <att name="Mouth" value="MOU6" />
+    <att name="Speak" value="SPE1" />
     <att name="Eyes" value="EYE4" />
     <att name="Disease" value="Li&#7879;t d&#226;y th&#7847;n kinh m&#7863;t Bell&#8217;s Palsy" />
+    <att name="Tongue" value="TON2" />
     <att name="Face" value="FAC4" />
-    <att name="Mouth" value="MOU6" />
   </instance>
   <instance id="Benh #49" >
-    <att name="Tongue" value="TON2" />
-    <att name="Speak" value="SPE1" />
-    <att name="Age" value="AGE5" />
     <att name="Jaw" value="JAW3" />
+    <att name="Age" value="AGE5" />
+    <att name="Mouth" value="MOU7" />
+    <att name="Speak" value="SPE1" />
     <att name="Eyes" value="EYE4" />
     <att name="Disease" value="Li&#7879;t d&#226;y th&#7847;n kinh m&#7863;t Bell&#8217;s Palsy" />
+    <att name="Tongue" value="TON2" />
     <att name="Face" value="FAC4" />
-    <att name="Mouth" value="MOU7" />
   </instance>
   <instance id="Benh #50" >
-    <att name="Tongue" value="TON2" />
-    <att name="Speak" value="SPE1" />
-    <att name="Age" value="AGE5" />
     <att name="Jaw" value="JAW3" />
+    <att name="Age" value="AGE5" />
+    <att name="Mouth" value="MOU6,MOU7" />
+    <att name="Speak" value="SPE1" />
     <att name="Eyes" value="EYE4" />
     <att name="Disease" value="Li&#7879;t d&#226;y th&#7847;n kinh m&#7863;t Bell&#8217;s Palsy" />
+    <att name="Tongue" value="TON2" />
     <att name="Face" value="FAC3" />
-    <att name="Mouth" value="MOU6,MOU7" />
   </instance>
   <instance id="Benh #51" >
-    <att name="Tongue" value="TON2" />
-    <att name="Speak" value="SPE1" />
-    <att name="Age" value="AGE5" />
     <att name="Jaw" value="JAW3" />
+    <att name="Age" value="AGE5" />
+    <att name="Mouth" value="MOU6" />
+    <att name="Speak" value="SPE1" />
     <att name="Eyes" value="EYE4" />
     <att name="Disease" value="Li&#7879;t d&#226;y th&#7847;n kinh m&#7863;t Bell&#8217;s Palsy" />
+    <att name="Tongue" value="TON2" />
     <att name="Face" value="FAC3" />
-    <att name="Mouth" value="MOU6" />
   </instance>
   <instance id="Benh #52" >
-    <att name="Tongue" value="TON2" />
-    <att name="Speak" value="SPE1" />
-    <att name="Age" value="AGE5" />
     <att name="Jaw" value="JAW3" />
+    <att name="Age" value="AGE5" />
+    <att name="Mouth" value="MOU7" />
+    <att name="Speak" value="SPE1" />
     <att name="Eyes" value="EYE4" />
     <att name="Disease" value="Li&#7879;t d&#226;y th&#7847;n kinh m&#7863;t Bell&#8217;s Palsy" />
+    <att name="Tongue" value="TON2" />
     <att name="Face" value="FAC3" />
-    <att name="Mouth" value="MOU7" />
   </instance>
   <instance id="Benh #53" >
-    <att name="Tongue" value="TON2" />
-    <att name="Speak" value="SPE1" />
-    <att name="Age" value="AGE5" />
     <att name="Jaw" value="JAW3" />
+    <att name="Age" value="AGE5" />
+    <att name="Mouth" value="MOU6,MOU7" />
+    <att name="Speak" value="SPE1" />
     <att name="Eyes" value="EYE5" />
     <att name="Disease" value="Li&#7879;t d&#226;y th&#7847;n kinh m&#7863;t Bell&#8217;s Palsy" />
+    <att name="Tongue" value="TON2" />
     <att name="Face" value="FAC3,FAC4" />
-    <att name="Mouth" value="MOU6,MOU7" />
   </instance>
   <instance id="Benh #10" >
-    <att name="Tongue" value="TON5" />
-    <att name="Speak" value="SPE2" />
-    <att name="Age" value="AGE1" />
     <att name="Jaw" value="JAW5" />
+    <att name="Age" value="AGE1" />
+    <att name="Mouth" value="MOU3" />
+    <att name="Speak" value="SPE2" />
     <att name="Eyes" value="EYE1" />
     <att name="Disease" value="H&#7897;i tr&#7913;ng Tourette" />
+    <att name="Tongue" value="TON5" />
     <att name="Face" value="FAC1" />
-    <att name="Mouth" value="MOU3" />
   </instance>
   <instance id="Benh #54" >
-    <att name="Tongue" value="TON2" />
-    <att name="Speak" value="SPE1" />
-    <att name="Age" value="AGE5" />
     <att name="Jaw" value="JAW3" />
+    <att name="Age" value="AGE5" />
+    <att name="Mouth" value="MOU6" />
+    <att name="Speak" value="SPE1" />
     <att name="Eyes" value="EYE5" />
     <att name="Disease" value="Li&#7879;t d&#226;y th&#7847;n kinh m&#7863;t Bell&#8217;s Palsy" />
+    <att name="Tongue" value="TON2" />
     <att name="Face" value="FAC3,FAC4" />
-    <att name="Mouth" value="MOU6" />
   </instance>
   <instance id="Benh #2" >
-    <att name="Tongue" value="TON4" />
-    <att name="Speak" value="SPE1" />
-    <att name="Age" value="AGE5" />
     <att name="Jaw" value="JAW4" />
+    <att name="Age" value="AGE5" />
+    <att name="Mouth" value="MOU1" />
+    <att name="Speak" value="SPE1" />
     <att name="Eyes" value="EYE1" />
     <att name="Disease" value="R&#7889;i lo&#7841;n v&#7853;n &#273;&#7897;ng ch&#7853;m ph&#225;t (Tardive dyskinesia)" />
+    <att name="Tongue" value="TON4" />
     <att name="Face" value="FAC1" />
-    <att name="Mouth" value="MOU1" />
   </instance>
   <instance id="Benh #33" >
-    <att name="Tongue" value="TON2" />
-    <att name="Speak" value="SPE1" />
-    <att name="Age" value="AGE5" />
     <att name="Jaw" value="JAW3" />
+    <att name="Age" value="AGE5" />
+    <att name="Mouth" value="MOU7" />
+    <att name="Speak" value="SPE1" />
     <att name="Eyes" value="EYE4,EYE5" />
     <att name="Disease" value="Li&#7879;t d&#226;y th&#7847;n kinh m&#7863;t Bell&#8217;s Palsy" />
+    <att name="Tongue" value="TON2" />
     <att name="Face" value="FAC4" />
-    <att name="Mouth" value="MOU7" />
   </instance>
   <instance id="Benh #3" >
-    <att name="Tongue" value="TON5" />
-    <att name="Speak" value="SPE1" />
-    <att name="Age" value="AGE3" />
     <att name="Jaw" value="JAW1" />
+    <att name="Age" value="AGE3" />
+    <att name="Mouth" value="MOU2" />
+    <att name="Speak" value="SPE1" />
     <att name="Eyes" value="EYE2" />
     <att name="Disease" value="Co gi&#7853;t n&#7917;a m&#7863;t (Hemifacial Spasm)" />
+    <att name="Tongue" value="TON5" />
     <att name="Face" value="FAC2" />
-    <att name="Mouth" value="MOU2" />
   </instance>
   <instance id="Benh #34" >
-    <att name="Tongue" value="TON2" />
-    <att name="Speak" value="SPE1" />
-    <att name="Age" value="AGE5" />
     <att name="Jaw" value="JAW3" />
+    <att name="Age" value="AGE5" />
+    <att name="Mouth" value="MOU6" />
+    <att name="Speak" value="SPE1" />
     <att name="Eyes" value="EYE4,EYE5" />
     <att name="Disease" value="Li&#7879;t d&#226;y th&#7847;n kinh m&#7863;t Bell&#8217;s Palsy" />
+    <att name="Tongue" value="TON2" />
     <att name="Face" value="FAC4" />
-    <att name="Mouth" value="MOU6" />
   </instance>
   <instance id="Benh #0" >
-    <att name="Tongue" value="TON1,TON4" />
-    <att name="Speak" value="SPE1" />
-    <att name="Age" value="AGE5" />
     <att name="Jaw" value="JAW4" />
+    <att name="Age" value="AGE5" />
+    <att name="Mouth" value="MOU1" />
+    <att name="Speak" value="SPE1" />
     <att name="Eyes" value="EYE1" />
     <att name="Disease" value="R&#7889;i lo&#7841;n v&#7853;n &#273;&#7897;ng ch&#7853;m ph&#225;t (Tardive dyskinesia)" />
+    <att name="Tongue" value="TON1,TON4" />
     <att name="Face" value="FAC1" />
-    <att name="Mouth" value="MOU1" />
   </instance>
   <instance id="Benh #35" >
-    <att name="Tongue" value="TON2" />
-    <att name="Speak" value="SPE1" />
-    <att name="Age" value="AGE5" />
     <att name="Jaw" value="JAW3" />
+    <att name="Age" value="AGE5" />
+    <att name="Mouth" value="MOU6,MOU7" />
+    <att name="Speak" value="SPE1" />
     <att name="Eyes" value="EYE3" />
     <att name="Disease" value="Li&#7879;t d&#226;y th&#7847;n kinh m&#7863;t Bell&#8217;s Palsy" />
+    <att name="Tongue" value="TON2" />
     <att name="Face" value="FAC3,FAC4" />
-    <att name="Mouth" value="MOU6,MOU7" />
   </instance>
   <instance id="Benh #1" >
-    <att name="Tongue" value="TON1" />
-    <att name="Speak" value="SPE1" />
-    <att name="Age" value="AGE5" />
     <att name="Jaw" value="JAW4" />
+    <att name="Age" value="AGE5" />
+    <att name="Mouth" value="MOU1" />
+    <att name="Speak" value="SPE1" />
     <att name="Eyes" value="EYE1" />
     <att name="Disease" value="R&#7889;i lo&#7841;n v&#7853;n &#273;&#7897;ng ch&#7853;m ph&#225;t (Tardive dyskinesia)" />
+    <att name="Tongue" value="TON1" />
     <att name="Face" value="FAC1" />
-    <att name="Mouth" value="MOU1" />
   </instance>
   <instance id="Benh #36" >
-    <att name="Tongue" value="TON2" />
-    <att name="Speak" value="SPE1" />
-    <att name="Age" value="AGE5" />
     <att name="Jaw" value="JAW3" />
+    <att name="Age" value="AGE5" />
+    <att name="Mouth" value="MOU7" />
+    <att name="Speak" value="SPE1" />
     <att name="Eyes" value="EYE3" />
     <att name="Disease" value="Li&#7879;t d&#226;y th&#7847;n kinh m&#7863;t Bell&#8217;s Palsy" />
+    <att name="Tongue" value="TON2" />
     <att name="Face" value="FAC3,FAC4" />
-    <att name="Mouth" value="MOU7" />
   </instance>
   <instance id="Benh #6" >
-    <att name="Tongue" value="TON5" />
-    <att name="Speak" value="SPE3" />
-    <att name="Age" value="AGE3" />
     <att name="Jaw" value="JAW5" />
+    <att name="Age" value="AGE3" />
+    <att name="Mouth" value="MOU8" />
+    <att name="Speak" value="SPE3" />
     <att name="Eyes" value="EYE2,EYE3" />
     <att name="Disease" value="Co th&#7855;t m&#237; m&#7855;t (Blepharospasm)" />
+    <att name="Tongue" value="TON5" />
     <att name="Face" value="FAC7" />
-    <att name="Mouth" value="MOU8" />
   </instance>
   <instance id="Benh #37" >
-    <att name="Tongue" value="TON2" />
-    <att name="Speak" value="SPE1" />
-    <att name="Age" value="AGE5" />
     <att name="Jaw" value="JAW3" />
+    <att name="Age" value="AGE5" />
+    <att name="Mouth" value="MOU6" />
+    <att name="Speak" value="SPE1" />
     <att name="Eyes" value="EYE3" />
     <att name="Disease" value="Li&#7879;t d&#226;y th&#7847;n kinh m&#7863;t Bell&#8217;s Palsy" />
+    <att name="Tongue" value="TON2" />
     <att name="Face" value="FAC3,FAC4" />
-    <att name="Mouth" value="MOU6" />
   </instance>
   <instance id="Benh #7" >
-    <att name="Tongue" value="TON5" />
-    <att name="Speak" value="SPE2" />
-    <att name="Age" value="AGE1" />
     <att name="Jaw" value="JAW5" />
+    <att name="Age" value="AGE1" />
+    <att name="Mouth" value="MOU3" />
+    <att name="Speak" value="SPE2" />
     <att name="Eyes" value="EYE2" />
     <att name="Disease" value="H&#7897;i tr&#7913;ng Tourette" />
+    <att name="Tongue" value="TON5" />
     <att name="Face" value="FAC1" />
-    <att name="Mouth" value="MOU3" />
   </instance>
   <instance id="Benh #38" >
-    <att name="Tongue" value="TON2" />
-    <att name="Speak" value="SPE1" />
-    <att name="Age" value="AGE5" />
     <att name="Jaw" value="JAW3" />
+    <att name="Age" value="AGE5" />
+    <att name="Mouth" value="MOU6,MOU7" />
+    <att name="Speak" value="SPE1" />
     <att name="Eyes" value="EYE3" />
     <att name="Disease" value="Li&#7879;t d&#226;y th&#7847;n kinh m&#7863;t Bell&#8217;s Palsy" />
+    <att name="Tongue" value="TON2" />
     <att name="Face" value="FAC3" />
-    <att name="Mouth" value="MOU6,MOU7" />
   </instance>
   <instance id="Benh #4" >
-    <att name="Tongue" value="TON5" />
-    <att name="Speak" value="SPE3" />
-    <att name="Age" value="AGE3" />
     <att name="Jaw" value="JAW3" />
+    <att name="Age" value="AGE3" />
+    <att name="Mouth" value="MOU8" />
+    <att name="Speak" value="SPE3" />
     <att name="Eyes" value="EYE3" />
     <att name="Disease" value="H&#7897;i ch&#7913;ng Meige" />
+    <att name="Tongue" value="TON5" />
     <att name="Face" value="FAC1" />
-    <att name="Mouth" value="MOU8" />
   </instance>
   <instance id="Benh #39" >
-    <att name="Tongue" value="TON2" />
-    <att name="Speak" value="SPE1" />
-    <att name="Age" value="AGE5" />
     <att name="Jaw" value="JAW3" />
+    <att name="Age" value="AGE5" />
+    <att name="Mouth" value="MOU7" />
+    <att name="Speak" value="SPE1" />
     <att name="Eyes" value="EYE3" />
     <att name="Disease" value="Li&#7879;t d&#226;y th&#7847;n kinh m&#7863;t Bell&#8217;s Palsy" />
+    <att name="Tongue" value="TON2" />
     <att name="Face" value="FAC3" />
-    <att name="Mouth" value="MOU7" />
   </instance>
   <instance id="Benh #5" >
-    <att name="Tongue" value="TON5" />
-    <att name="Speak" value="SPE3" />
-    <att name="Age" value="AGE3" />
     <att name="Jaw" value="JAW2" />
+    <att name="Age" value="AGE3" />
+    <att name="Mouth" value="MOU8" />
+    <att name="Speak" value="SPE3" />
     <att name="Eyes" value="EYE3" />
     <att name="Disease" value="H&#7897;i ch&#7913;ng Meige" />
+    <att name="Tongue" value="TON5" />
     <att name="Face" value="FAC1" />
-    <att name="Mouth" value="MOU8" />
   </instance>
   <instance id="Benh #8" >
-    <att name="Tongue" value="TON5" />
-    <att name="Speak" value="SPE2" />
-    <att name="Age" value="AGE1" />
     <att name="Jaw" value="JAW5" />
+    <att name="Age" value="AGE1" />
+    <att name="Mouth" value="MOU4" />
+    <att name="Speak" value="SPE2" />
     <att name="Eyes" value="EYE2" />
     <att name="Disease" value="H&#7897;i tr&#7913;ng Tourette" />
+    <att name="Tongue" value="TON5" />
     <att name="Face" value="FAC1" />
-    <att name="Mouth" value="MOU4" />
   </instance>
   <instance id="Benh #9" >
-    <att name="Tongue" value="TON5" />
-    <att name="Speak" value="SPE2" />
-    <att name="Age" value="AGE1" />
     <att name="Jaw" value="JAW5" />
+    <att name="Age" value="AGE1" />
+    <att name="Mouth" value="MOU3,MOU4" />
+    <att name="Speak" value="SPE2" />
     <att name="Eyes" value="EYE2" />
     <att name="Disease" value="H&#7897;i tr&#7913;ng Tourette" />
+    <att name="Tongue" value="TON5" />
     <att name="Face" value="FAC1" />
-    <att name="Mouth" value="MOU3,MOU4" />
   </instance>
   <instance id="Benh #40" >
-    <att name="Tongue" value="TON2" />
-    <att name="Speak" value="SPE1" />
-    <att name="Age" value="AGE5" />
     <att name="Jaw" value="JAW3" />
+    <att name="Age" value="AGE5" />
+    <att name="Mouth" value="MOU6" />
+    <att name="Speak" value="SPE1" />
     <att name="Eyes" value="EYE3" />
     <att name="Disease" value="Li&#7879;t d&#226;y th&#7847;n kinh m&#7863;t Bell&#8217;s Palsy" />
+    <att name="Tongue" value="TON2" />
     <att name="Face" value="FAC3" />
-    <att name="Mouth" value="MOU6" />
   </instance>
   <instance id="Benh #41" >
-    <att name="Tongue" value="TON2" />
-    <att name="Speak" value="SPE1" />
-    <att name="Age" value="AGE5" />
     <att name="Jaw" value="JAW3" />
+    <att name="Age" value="AGE5" />
+    <att name="Mouth" value="MOU6,MOU7" />
+    <att name="Speak" value="SPE1" />
     <att name="Eyes" value="EYE3" />
     <att name="Disease" value="Li&#7879;t d&#226;y th&#7847;n kinh m&#7863;t Bell&#8217;s Palsy" />
+    <att name="Tongue" value="TON2" />
     <att name="Face" value="FAC4" />
-    <att name="Mouth" value="MOU6,MOU7" />
   </instance>
   <instance id="Benh #42" >
-    <att name="Tongue" value="TON2" />
-    <att name="Speak" value="SPE1" />
-    <att name="Age" value="AGE5" />
     <att name="Jaw" value="JAW3" />
+    <att name="Age" value="AGE5" />
+    <att name="Mouth" value="MOU7" />
+    <att name="Speak" value="SPE1" />
     <att name="Eyes" value="EYE3" />
     <att name="Disease" value="Li&#7879;t d&#226;y th&#7847;n kinh m&#7863;t Bell&#8217;s Palsy" />
+    <att name="Tongue" value="TON2" />
     <att name="Face" value="FAC4" />
-    <att name="Mouth" value="MOU7" />
   </instance>
   <instance id="Benh #43" >
-    <att name="Tongue" value="TON2" />
-    <att name="Speak" value="SPE1" />
-    <att name="Age" value="AGE5" />
     <att name="Jaw" value="JAW3" />
+    <att name="Age" value="AGE5" />
+    <att name="Mouth" value="MOU6" />
+    <att name="Speak" value="SPE1" />
     <att name="Eyes" value="EYE3" />
     <att name="Disease" value="Li&#7879;t d&#226;y th&#7847;n kinh m&#7863;t Bell&#8217;s Palsy" />
+    <att name="Tongue" value="TON2" />
     <att name="Face" value="FAC4" />
-    <att name="Mouth" value="MOU6" />
   </instance>
 </instances>
 <cb name="cases-benh">
