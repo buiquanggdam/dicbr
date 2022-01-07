@@ -85,8 +85,11 @@ public class DiseaseSearchResults extends HttpServlet {
         disRetrieval.start();
         // Get the results
         List<Pair<Instance, Similarity>> resultList = disRetrieval.getResult();
+//        String disease = null;
+//        
+//        queryInstance.addAttribute(disease, queryInstance);
 
-        System.out.println(queryInstance);
+        defaultCB.addCase(queryInstance);
 
         for (int i = 0; i < resultList.size(); i++) {
             System.out.println(resultList.get(i).toString());
@@ -128,7 +131,7 @@ public class DiseaseSearchResults extends HttpServlet {
         });
         return resTable;
     }
-    
+
     /**
      * This Method generates an ArrayList, which contains all Categories of aa
      * Concept.
@@ -149,7 +152,7 @@ public class DiseaseSearchResults extends HttpServlet {
         }
         return categories;
     }
-    
+
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
      * methods.
@@ -176,15 +179,15 @@ public class DiseaseSearchResults extends HttpServlet {
             out.println("<!DOCTYPE html>");
             out.println("<html>");
             out.println("<head>");
-            out.println("<title>Search Results</title>");
+            out.println("<title>Kết quả chẩn đoán</title>");
             out.println("<link href='style.css' rel='stylesheet' type='text/css' />");
             out.println("<link href='iconfont.css' rel='stylesheet' type='text/css' />");
             out.println("</head>");
             out.println("<body>");
             out.println(
-                    "<div id='nav'><p>Chuan Doan Benh <span class='page-title'>/ Tim ket qua</span></p></div>");
+                    "<div id='nav'><p>Chẩn đoán bệnh <span class='page-title'>/ Kết quả</span></p></div>");
 
-            out.println("<h3 id='new-query'><a href='DiseaseSearchQuery'>New Query</a></h3>");
+            out.println("<h3 id='new-query'><a href='DiseaseSearchQuery'>Thử lại</a></h3>");
 
             out.println("<div id='search-results'>");
             queryResult.stream().map((queryRes) -> {
@@ -193,25 +196,15 @@ public class DiseaseSearchResults extends HttpServlet {
                 return singleResult;
             }).forEach((singleResult) -> {
 
-                // Ausgabe der einzelnen Eigenschaften der Ergebnisse in einer Tabelle
-                out.println("<div class='single-result'>" + "<table class='single-result-table'>"
-                        + "<tr class='cam-name'><td><span class='icon-camera'></span></td>" + "<td>"
-                        + singleResult.get("Disease") + " " + "</td></tr>");
+                // Đầu ra của các thuộc tính riêng lẻ của kết quả trong một bảng
+                out.println("<div class = 'result'>"
+                        + "Người bệnh bị: " + singleResult.get("Disease")+ "</div>");
+                
                 Enumeration<String> items = singleResult.keys();
-                while (items.hasMoreElements()) {
 
-                    String key = items.nextElement();
-
-                    if (!"Sim".equals(key)) {
-
-                        String value = singleResult.get(key);
-                        out.println(
-                                "<tr class='td'><td>" + key + "</td><td><strong> " + value + "</strong></td></tr>");
-                    }
-                }
-                // Ausgabe der Buttons und des Ähnlichkeitswertes
-                out.println("<tr class='buttons'><td>" + "SimScore: <strong>" + singleResult.get("Sim")
-                        + "</strong></td>" + "</tr></table></div>");
+                // Đầu ra của các nút và giá trị tương tự
+                out.println("<div><div>" + "SimScore: <strong>" + singleResult.get("Sim")
+                        + "</strong></div>" + "</div>");
             });
             out.println("</div>");
             out.println("</body>");
