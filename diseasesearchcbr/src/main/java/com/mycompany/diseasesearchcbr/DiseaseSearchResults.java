@@ -89,11 +89,15 @@ public class DiseaseSearchResults extends HttpServlet {
 //        
 //        queryInstance.addAttribute(disease, queryInstance);
 
-        defaultCB.addCase(queryInstance);
+//        defaultCB.addCase(queryInstance);
 
         for (int i = 0; i < resultList.size(); i++) {
             System.out.println(resultList.get(i).toString());
         }
+        
+        //Add new case
+        
+        
         ArrayList<Hashtable<String, String>> resultTable;
         if (resultList.size() > 0) {
             resultTable = new ArrayList<>();
@@ -196,13 +200,13 @@ public class DiseaseSearchResults extends HttpServlet {
                 return singleResult;
             }).forEach((singleResult) -> {
 
-                // Đầu ra của các thuộc tính riêng lẻ của kết quả trong một bảng
+                // Đầu ra kết quả là các bệnh
                 out.println("<div class = 'result'>"
-                        + "Người bệnh bị: " + singleResult.get("Disease")+ "</div>");
+                        + "Bệnh mà người bệnh mắc phải là: " + singleResult.get("Disease")+ "</div>");
                 
                 Enumeration<String> items = singleResult.keys();
 
-                // Đầu ra của các nút và giá trị tương tự
+                // Đầu ra giá trị tương tự so với kết quả
                 out.println("<div><div>" + "SimScore: <strong>" + singleResult.get("Sim")
                         + "</strong></div>" + "</div>");
             });

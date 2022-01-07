@@ -12,7 +12,7 @@ import de.dfki.mycbr.core.Project;
  */
 public class CBRInit {
 
-    private final String data_path = "D:\\Documents\\NetBeansProjects\\diseasesearchcbr\\src\\main\\webapp\\WEB-INF\\classes\\";
+    private final String data_path = "D:\\Documents\\GitHub\\DiseaseSearchCBR\\diseasesearchcbr\\src\\main\\webapp\\WEB-INF\\classes\\";
     private static String projectName = "CaseBaseBenh.prj";
     private static String conceptName = "Benh";
     private static String casebase = "cases-benh";
